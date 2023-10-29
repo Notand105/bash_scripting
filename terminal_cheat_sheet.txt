@@ -5,4 +5,3 @@ ls -l list as a list, ls -la as a list with extra info
 
 man <command> get a manual of the selected command, enter to move down, b to move up q to quit
 
-
