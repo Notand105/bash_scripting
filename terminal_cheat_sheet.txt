@@ -3,6 +3,11 @@ rm -r <directory> recursively removes a directory
 
 ls -l list as a list, ls -la as a list with extra info
 
-man <command> get a manual of the selected command, enter to move down, b to move up q to quit
+man <command> get a manual :of the selected command, enter to move down, b to move up q to quit
 
+ls -l *.txt filters only files that ends in .txt, can also use h* to find every
+file that starts with h
 
+grep -i <file,directory> -e -r "expretion" example grep terminal_cheat_sheet -e "ls" , -i its for case sensitive , -r for directories 
+
+with grep <file> -e "exp" > file.txt  we save the result into a new file 
