@@ -11,3 +11,42 @@ file that starts with h
 grep -i <file,directory> -e -r "expretion" example grep terminal_cheat_sheet -e "ls" , -i its for case sensitive , -r for directories 
 
 with grep <file> -e "exp" > file.txt  we save the result into a new file 
+
+
+zip <zipname> <file> to zip in terminal
+unzip <zip> to uzip
+
+########## CURL #################
+
+curl allow us to do calls to apis, if we curl a image url we download it
+
+example: curl https://jsonplaceholder.typicode.com/todos/1
+
+-v gives us the headers and every process
+-i headers and data
+
+curl https://reqres.in/api/users -i
+
+-o <name> will download the curl result and name it
+-O will download without defining a name
+
+
+
+with directions it give us the html
+
+curl google.com
+
+### Working with apis ####
+
+GET = curl <url>
+POST = curl --data "title=hello world&body=this is the first post" <url>
+PUT = curl -x PUT --data "title=hello world&body=this is the first post" <url>
+DELETE = curl -x DELETE <url>
+
+
+
+
+
+
+
+
