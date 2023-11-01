@@ -1,0 +1,2 @@
+ls -l list as a list, ls -la as a list with extra info
+cat terminal_cheat_sheet.txt | grep  -e "l" > res.txt | ls | cat res.txt

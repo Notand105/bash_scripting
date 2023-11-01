@@ -1,0 +1,16 @@
+rm <file_name> removes a file
+rm -r <directory> recursively removes a directory
+
+ls -l list as a list, ls -la as a list with extra info
+
+man <command> get a manual of the selected command, enter to move down, b to move up q to quit
+
+cp <dir> <dir> let us copy a dir or file to another location, mv moves, mv aloso works for renaming if its used in the same directory
+
+pipe: using the result of a previuos operation to run a new command
+
+cat terminal_cheat_sheet.txt | grep  -e "l" > res.txt | ls | cat res.txt
+
+in that case we are using the output of cat as the input to grep, thats why grep takes no input as an argument
+
+.
